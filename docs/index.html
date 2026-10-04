@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6c4ab6">
+  <title>お気にと推しの予定 Android版</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      background: #f5f3f9;
+      color: #242124;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 18px 56px;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 4px 22px rgba(0,0,0,.08);
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+    .version {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .download {
+      display: block;
+      margin: 24px 0;
+      padding: 17px 20px;
+      border-radius: 12px;
+      background: #6c4ab6;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 700;
+    }
+    .download:hover {
+      opacity: .90;
+    }
+    code {
+      word-break: break-all;
+      background: #f0edf5;
+      padding: 3px 5px;
+      border-radius: 5px;
+    }
+    .note {
+      background: #fff7df;
+      border-left: 5px solid #e3aa24;
+      padding: 14px;
+      border-radius: 8px;
+    }
+    .qr {
+      text-align: center;
+    }
+    .qr img {
+      width: 260px;
+      max-width: 80%;
+      height: auto;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 13px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <section class="card">
+    <h1>お気にと推しの予定</h1>
+    <p>Android版 公式APK配布ページ</p>
+
+    <p class="version">最新版 v1.0.7</p>
+
+    <a class="download"
+       href="https://github.com/ShigeakiRacing/okini-oshi-android/releases/download/v1.0.7/okini-oshi-schedule-v1.0.7.apk">
+       Android版 APKをダウンロード
+    </a>
+
+    <div class="note">
+      このAndroid版はGoogle Play版ではありません。
+      APKを直接ダウンロードしてインストールします。
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>インストール方法</h2>
+    <ol>
+      <li>上の「Android版 APKをダウンロード」をタップします。</li>
+      <li>ダウンロードしたAPKを開きます。</li>
+      <li>
+        初回のみAndroidから確認された場合は、
+        「この提供元からのアプリを許可」を有効にします。
+      </li>
+      <li>「インストール」をタップします。</li>
+    </ol>
+
+    <p>
+      バージョンアップ時は、同じページから新しいAPKを
+      ダウンロードしてインストールしてください。
+    </p>
+  </section>
+
+  <section class="card qr">
+    <h2>QRコード</h2>
+    <p>別のAndroid端末からこの配布ページを開く場合に使用できます。</p>
+    <img src="android-download-qr.png"
+         alt="Android版ダウンロードページ QRコード">
+  </section>
+
+  <section class="card">
+    <h2>APK情報</h2>
+    <p>ファイル：<code>okini-oshi-schedule-v1.0.7.apk</code></p>
+    <p>SHA-256：</p>
+    <p><code>9F6DD775E640003AD3861FF331E5C98BBBFD0BC2AF0E83D2026EB61F44DA83A1</code></p>
+
+    <p>
+      <a href="https://github.com/ShigeakiRacing/okini-oshi-android/releases/tag/v1.0.7">
+        GitHub Release v1.0.7 を確認
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Shigeaki_Racing
+  </footer>
+
+</main>
+</body>
+</html>
